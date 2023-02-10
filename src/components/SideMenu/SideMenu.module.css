@@ -1,0 +1,18 @@
+.container {
+  top: 50px;
+  left: -300px;
+  position: fixed;
+  height: 600px;
+  width: 300px;
+  background-color: black;
+  transition: all 1s;
+}
+
+.openButton {
+  position: absolute;
+  right: -74px;
+}
+
+.containerClosed {
+  left: 0px;
+}

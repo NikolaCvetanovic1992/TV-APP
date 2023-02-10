@@ -1,0 +1,26 @@
+.headerContainer {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(237, 236, 236);
+  font-family: Roboto;
+  color: rgb(170, 169, 169);
+}
+h3 {
+  color: black;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+
+.textContainer {
+  font-weight: 400;
+  padding-top: 50px;
+  padding-left: 110px;
+}
+
+.shows {
+  font-weight: 400;
+  width: 100%;
+  color: rgb(138, 137, 137);
+  font-size: 18px;
+  margin-top: 70px;
+}

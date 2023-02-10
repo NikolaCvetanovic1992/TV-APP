@@ -1,0 +1,82 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(243, 241, 241);
+}
+
+.loginForm {
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+  height: 275px;
+  max-width: 300px;
+  align-self: center;
+  border: 2px solid rgb(144, 67, 202);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.textFieldContainer {
+  height: 70px;
+}
+
+.inputField {
+  background-color: transparent;
+  border-width: 0 0 2px;
+  border-bottom: 1px solid rgb(39, 39, 39);
+  margin-bottom: 10px;
+  display: block;
+  min-width: 300px;
+  height: 30px;
+}
+
+.inputField:hover {
+  border-bottom: 1px solid rgb(144, 67, 202);
+}
+
+.inputField::placeholder {
+  color: rgb(183, 183, 183);
+}
+
+.inputField:focus {
+  outline: none;
+}
+
+.loginButton {
+  height: 37px;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 40px;
+  padding: 10px;
+  border: none;
+  float: right;
+  color: rgb(39, 39, 39);
+  border: 1px solid rgb(39, 39, 39);
+  display: flex;
+  justify-content: center;
+}
+.loginButton:hover {
+  color: rgb(144, 67, 202);
+  border: 1px solid rgb(144, 67, 202);
+}
+
+.showHideContainer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 3px;
+  right: 0px;
+  height: 20px;
+  cursor: pointer;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.serverErrorMessage {
+  height: 70px;
+}

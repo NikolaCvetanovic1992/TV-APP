@@ -1,0 +1,41 @@
+.videoPosition {
+  position: absolute;
+  top: 350px;
+  width: 100%;
+}
+
+.videoGrid {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*@media (max-width: 600px) {
+  .videoGrid {
+    grid-template-columns: 1fr;
+  }
+}
+ display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .videoGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .videoGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .videoGrid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}*/

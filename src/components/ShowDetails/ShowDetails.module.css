@@ -1,0 +1,40 @@
+.header {
+  background-color: rgb(220, 219, 219);
+  height: 400px;
+  width: "100%";
+}
+
+.content {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.description {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.textContent {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 700px) {
+  .description {
+    flex-direction: column;
+  }
+
+  .textContent {
+    margin-left: 0;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+}
